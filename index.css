@@ -1,0 +1,203 @@
+body {
+    padding-top: 90px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(242,245,248,.75);
+    color: #000;
+}
+
+.logo-name {
+    font-size: 26px;
+}
+   
+.navbar {
+    margin-bottom: 0px;
+    padding: 18px 50px;
+    -webkit-transition: all;
+    transition: all .5s;
+}
+
+.navbar .ml {
+    margin-left: 650px;
+}
+
+.navbar .button {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: teal;
+    margin-left: 20px;
+    margin-top: 4.5px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+/* .title-image {
+    position: absolute;
+    left: 45%;
+    width: 11%;
+    height:23%;
+    margin-top: 250px;
+    transform: translate(-50% -50%);
+    -webkit-transform: translate(-50% -50%);
+} */
+
+.cbp-af-header-shrink {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0.9;
+}
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
+.text-banner {
+    text-align: center;
+    margin: 90px 20px;
+}
+
+.text-banner h1 {
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+.text-banner p {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.text-banner a {
+    border: 1px solid teal;
+    color: teal;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 3px;
+    line-height: 100px;
+    font-size: 14px;
+}
+
+.text-banner a:hover {
+    background-color: teal;
+    color: #ffffff;
+}
+
+/* .service-section {
+    margin: 80px 50px;
+} */
+
+.only-white {
+    background-color: #fff;
+}
+
+.pre {
+    border-bottom: 2px solid teal;
+}
+
+.service-element {
+    text-align: left;
+    /* margin-top: 70px; */
+    padding: 120px 90px;
+    line-height: 30px;
+}
+
+.service2-element {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.service-element img {
+    width:500px;
+    height: 300px;
+}
+
+.service-element img.animated-gif{
+    width: 500px;
+    height: 230px;
+  }
+
+.contact-section {
+    margin: 120px 60px;
+    text-align: left;
+}
+
+.contact-section h1 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;     
+}
+
+.contact-message  {
+    margin-top: 30px;
+}
+
+.contact-section input, textarea, button {
+    margin: 14px 25px;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    color: #333;
+}
+
+p {
+    color: #333;
+    font-size: 18px; 
+}
+
+button {
+    color: teal;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: teal;
+    color: #ffffff;
+}
+
+.footer-text {
+    margin-top: 26px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer-text i {
+    margin-right: 15px;
+    color: teal;
+}
+
+.smart-quote {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 45px;
+}
+
+.smart-quote img {
+    width: 80px;
+    height: 60px;
+}
+
+.smart-quote p {
+    margin-bottom: 0px;
+}
+
+.footer {
+    position: fixed;
+    height: 55px;
+    bottom: 0;
+    color:#fff;
+    padding-top:20px;
+    width: 100%;
+    background: #333;
+    background: -webkit-linear-gradient(to right, #333, teal); 
+    background: linear-gradient(to right, #333, teal);
+    text-align:center;
+    font-size: 13px;
+}
